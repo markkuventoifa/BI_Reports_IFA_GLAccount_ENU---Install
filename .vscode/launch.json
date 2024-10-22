@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "al",
+          "request": "launch",
+          "name": "Container Rejlers",
+          "server": "http://bcRejlers",
+          "serverInstance": "BC",
+          "tenant": "default",
+          "authentication": "UserPassword",
+          "startupObjectId": 50,
+          "startupObjectType": "Page",
+          "breakOnError": true,
+          "launchBrowser": true,
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true,
+          "schemaUpdateMode": "ForceSync"
+      },
+      {
+          "type": "al",
+          "request": "launch",
+          "name": "Rejlers Sandbox",
+          "environmentType":"Sandbox",
+          "environmentName": "Sandbox",
+          "tenant": "1c12e5e7-ba92-4152-8006-b0ad49c006e7",
+          "startupObjectId": 22,
+          "startupObjectType": "Page",
+          "breakOnError": true,
+          "breakOnRecordWrite": false,
+          "launchBrowser": true,
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true,
+          "schemaUpdateMode": "ForceSync"
+      },
+      {
+          "type": "al",
+          "request": "launch",
+          "name": "Rejlers Sandbox-PROD",
+          //"environmentType":"Sandbox",
+          "environmentName": "Sandbox-PROD",
+          "tenant": "1c12e5e7-ba92-4152-8006-b0ad49c006e7",
+          "startupObjectId": 22,
+          "startupObjectType": "Page",
+          "breakOnError": true,
+          "launchBrowser": true,
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true,
+          "schemaUpdateMode": "ForceSync"
+      }       
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "59eb2b4b-9aa8-4e40-ac8d-e30fc6f6cacb",
+  "name": "BI_Reports_GLAccount_ENU_Install",
+  "publisher": "Innofactor",
+  "version": "24.5.0.2",
+  "runtime": "13.0",
+  "target": "Cloud",
+  "application": "24.0.0.0",
+  "platform": "24.0.0.0",
+  "dependencies": [
+    {
+      "id": "59c904a5-89c0-40a7-93dd-8c8be202cf42",
+      "publisher": "Appsolutely365",
+      "name": "Multi Language Chart of Accounts",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "f7e5f993-cc80-4863-8066-e2dc3c78f129",
+      "publisher": "Innofactor",
+      "name": "BI_Reports",
+      "version": "24.5.0.5"
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "features": ["TranslationFile"],
+  "idRanges": [
+    {
+      "from": 66095,
+      "to": 66099
+    }
+  ]
+}
